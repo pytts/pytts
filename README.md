@@ -7,9 +7,13 @@
 pip install virtualenv
 virtualenv venv
 ```
-### Activate virtual enviroment (needed before running)
+### Activate virtual enviroment (needed before running and installing dependenices)
 ```sh
 source venv/bin/activate
+```
+### Install dependencies
+```sh
+pip install -r requirements.txt
 ```
 ### Run the program
 ```sh
