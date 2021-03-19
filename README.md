@@ -2,6 +2,17 @@
 
 > Generate speech from text
 
+## Table of contents
+
+- [Usage (Windows)](#usage-windows)
+  - [Setup (first time only)](#setup-first-time-only)
+  - [Run the program](#run-the-program)
+  - [Run the webserver](#run-the-webserver)
+- [Usage (Linux)](#usage-linux)
+  - [Setup (first time only)](#setup-first-time-only-1)
+  - [Run the program](#run-the-program-1)
+  - [Run the webserver](#run-the-webserver-1)
+
 ## Usage (Windows)
 
 ### Setup (first time only)
