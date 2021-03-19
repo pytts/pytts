@@ -2,6 +2,8 @@ import sys
 
 from classes import Pytts
 
+pytts = Pytts()
+
 def main():
     """
     Main function
@@ -13,11 +15,8 @@ def main():
         # sys.exit(1)
         words = 'absolutely massive computer'
     
-    pytts = Pytts()
     pytts.speak(words)
     # pytts.speak_word('pizza')
 
 if __name__ == "__main__":
     main()
-else:
-    pytts = Pytts()

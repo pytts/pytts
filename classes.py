@@ -27,6 +27,16 @@ class Pytts():
             else:
                 audio = audio + self.get_word(word)
         audio.export('output.mp3', format='mp3')
+    def speak_to_fp(self, text, fp):
+        words = text.split(' ')
+        print(words)
+        audio = None
+        for word in words:
+            if not audio:
+                audio = self.get_word(word)
+            else:
+                audio = audio + self.get_word(word)
+        audio.export(fp, format='mp3')
     def get_word(self, word):
         audio = self.get_word_from_list(word)
         if not audio:

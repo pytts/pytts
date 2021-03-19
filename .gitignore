@@ -1,0 +1,4 @@
+pytts/
+__pycache__/
+venv/
+output.mp3
